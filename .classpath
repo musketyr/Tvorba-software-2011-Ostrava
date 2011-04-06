@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/test/groovy"/>
+	<classpathentry kind="src" path="src/main/groovy"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/junit/junit/sources/junit-4.8.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/junit/junit/jars/junit-4.8.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/dev/Tvorba-software-2011-Ostrava/libs/duckapter-0.7.1-RC2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-commons/jars/asm-commons-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/antlr/antlr/jars/antlr-2.7.7.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/com.h2database/h2/sources/h2-1.3.153-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/com.h2database/h2/jars/h2-1.3.153.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy-all/sources/groovy-all-1.7.5-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy-all/jars/groovy-all-1.7.5.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-util/jars/asm-util-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-analysis/jars/asm-analysis-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm-tree/jars/asm-tree-3.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/junit/junit-dep/sources/junit-dep-4.8.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/junit/junit-dep/jars/junit-dep-4.8.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.mockito/mockito-all/sources/mockito-all-1.8.5-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.mockito/mockito-all/jars/mockito-all-1.8.5.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.spockframework/spock-core/sources/spock-core-0.5-groovy-1.7-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.spockframework/spock-core/jars/spock-core-0.5-groovy-1.7.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/cglib/cglib-nodep/sources/cglib-nodep-2.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/ladin/.gradle/cache/asm/asm/jars/asm-3.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/com.google.collections/google-collections/sources/google-collections-1.0-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/com.google.collections/google-collections/jars/google-collections-1.0.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.hamcrest/hamcrest-core/sources/hamcrest-core-1.2-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.2.jar" exported="true"/>
+	<classpathentry sourcepath="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy/sources/groovy-1.7.10-sources.jar" kind="lib" path="/home/ladin/.gradle/cache/org.codehaus.groovy/groovy/jars/groovy-1.7.10.jar" exported="true"/>
+</classpath>
