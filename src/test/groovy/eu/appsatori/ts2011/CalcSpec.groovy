@@ -111,7 +111,7 @@ class CalcSpec extends Specification{
 		setup:
 		Operator plus = Mock()
 		Operators operators = Mock()
-		
+		Operators old = calc.operators
 		calc.operators = operators
 		
 		when:
@@ -135,6 +135,20 @@ class CalcSpec extends Specification{
 		calc.push '='
 		then:
 		1 * plus.operate(12, 12) >> 24
+		
+		cleanup:
+		calc.operators = old
+	}
+	
+	def "Zero division shows 'E' on display"(){
+		when:
+		calc.push '5'
+		calc.push '/'
+		calc.push '0'
+		calc.push '='
+		then:
+		notThrown ArithmeticException
+		calc.display == "E"
 	}
 	
 	

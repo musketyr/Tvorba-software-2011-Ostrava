@@ -9,16 +9,21 @@ public class Calc {
 	private boolean clearDisplay = false;
 	
 	public void push(String button){
-		if("0".equals(display) || clearDisplay){
+		if(!"=".equals(button) && ("0".equals(display) || clearDisplay)){
 			display = button;
 			clearDisplay = false;
 		} else if(button.matches("\\d+")){
 			display += button;
 		} else if("=".equals(button)){
-			display = "" + operator.operate(
-					Integer.parseInt(registry), Integer.parseInt(display)
-			);
-			registry = display;
+			try{
+				display = "" + operator.operate(
+						Integer.parseInt(registry), Integer.parseInt(display)
+				);
+				registry = display;				
+			} catch (ArithmeticException e){
+				display = "E";
+				registry = "0";
+			}
 		} else {
 			operator = operators.get(button);
 			registry = display;

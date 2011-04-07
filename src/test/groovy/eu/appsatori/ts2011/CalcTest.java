@@ -127,6 +127,15 @@ public class CalcTest {
 		verify(plus).operate(12, 12);
 	}
 	
+	@Test
+	public void testZero() throws Exception{
+		calc.push("5");
+		calc.push("/");
+		calc.push("0");
+		calc.push("=");
+		assertEquals("E", calc.getDisplay());
+	}
+	
 	
 
 	private static interface HasRegistry {
